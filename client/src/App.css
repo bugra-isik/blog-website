@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --c1: #354046;
+  --c2: #0b1d26;
+  --c3: #fbd784;
+}
+
+* {
+  scrollbar-width: none;  
+}
