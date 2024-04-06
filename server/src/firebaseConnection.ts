@@ -1,14 +1,13 @@
 import { initializeApp } from 'firebase/app';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyA9XVBL8Mo7flJjEKRei2IoZ_GLGI42My8',
-  authDomain: 'blog-website-2251c.firebaseapp.com',
-  databaseURL:
-    'https://blog-website-2251c-default-rtdb.europe-west1.firebasedatabase.app',
-  projectId: 'blog-website-2251c',
-  storageBucket: 'blog-website-2251c.appspot.com',
-  messagingSenderId: '187932429561',
-  appId: '1:187932429561:web:a178f5d49a69806c44e628',
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
+  databaseURL: process.env.DATABASE_URL,
+  projectId: process.env.PROJECT_ID,
+  storageBucket: process.env.STORAGE_BUCKET,
+  messagingSenderId: process.env.MESSAGING_SENDER_ID,
+  appId: process.env.APP_ID,
 };
 
 const firebaseConnection = () => initializeApp(firebaseConfig);
