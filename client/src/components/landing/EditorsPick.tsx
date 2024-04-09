@@ -1,7 +1,7 @@
 export default function EditorsPick() {
   return (
     <section className={`w-[1024px] flex flex-col items-center gap-14`}>
-        <h1 className={`font-bold text-[42px]`}>
+        <h1 className={`font-bold text-[42px] text-white`}>
           Editor’s Picks <div className={`w-1/2 mx-auto h-1 bg-white mt-4`} />
         </h1>
         <div className={`h-[300px] flex justify-between cursor-pointer`}>

@@ -10,7 +10,7 @@ import Tags from "./components/tags/index.tsx"
 
 const theme = createTheme({
   typography: {
-    fontFamily: "'Noto Serif Display', serif",
+    fontFamily: "'Open Sans', sans-serif",
   },
 })
 

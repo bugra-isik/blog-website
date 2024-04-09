@@ -1,5 +1,6 @@
 import { Stack } from "@mui/material"
 import { CiSearch } from "react-icons/ci"
+import WritePost from "./writePost"
 
 export default function Navbar() {
   return (
@@ -38,11 +39,7 @@ export default function Navbar() {
         spacing={4}
       >
         <CiSearch className={`text-3xl text-white`} />
-        <button
-          className={`bg-c1/50 px-4 py-2 border border-white rounded-lg hover:bg-white/10 transition-colors`}
-        >
-          Add post
-        </button>
+        <WritePost/>
       </Stack>
     </nav>
   )

@@ -18,7 +18,7 @@ export default function About() {
       <div
         className={`h-96 bg-c1 w-full flex flex-col items-center justify-center gap-4`}
       >
-        <h1 className={`font-libre text-3xl `}>Want to connect?</h1>
+        <h1 className={`font-libre text-3xl text-white`}>Want to connect?</h1>
         <p>Dive into my digital domain</p>
         <a
           href="https://www.devbugra.com/#about"

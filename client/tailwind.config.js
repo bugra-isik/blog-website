@@ -10,6 +10,7 @@ export default {
       },
       fontFamily: {
         libre: '"Libre Baskerville", serif',
+        openSans: '"Open Sans", "sans-serif"',
       },
     },
   },
